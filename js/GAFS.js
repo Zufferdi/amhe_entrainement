@@ -10,7 +10,7 @@ $(document).ready(function() {
     /* intitialisation des cartes et des class pour chacune puis de l'espace bootstrap */
                 
               $("<div/>", {
-                'class':'carte' + " " + item.Catégorie + " " + item.Armes + " "  + 'item design col-xs-6 col-sm-4 col-md-3',
+                'class':'carte' + " " + item.Catégorie + " " + item.Armes + " "  + 'item design',
                 'html':
                         
     /* recto de la carte */
