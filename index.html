@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+<!-- bootstrap -->  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous"> 
+<!-- isotope et JQuery -->   
+    <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <script src="JS/GAFS.js"></script>
+    <script src="JS/isotope.pkgd.min.js"></script>
+<!-- mon fichier CSS -->
+    <link rel="stylesheet" href="css/style.css">
+<!-- fin usuelle du header -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entraînement GAFS</title>  
+</head>
+
+
+<body>
+    
+
+ <div class="container">
+     
+    <!-- Titre --> 
+     
+<h1> Un entraînement aléatoire d'arts martiaux historiques européens </h1>  
+     
+    <!-- les Filtres -->   
+     
+<div class="filters">
+
+       <!-- Boutons catégorie -->
+    
+  <div class="ui-group">
+    <h3>Catégorie</h3>
+      <div class="button-group filter-button-group" data-filter-group="Catégorie">
+        <button class="button is-checked" data-filter="">Tous</button>
+        <button class="button" data-filter=".Echauffement">Echauffement</button>
+        <button class="button" data-filter=".Drill">Drill</button>
+        <button class="button" data-filter=".Techniques">Technique</button>
+        <button class="button" data-filter=".Coordination">Coordination</button>
+        <button class="button" data-filter=".Sparring">Sparring</button>
+    </div>
+  </div>
+
+        <!-- Boutons arme -->
+        
+  <div class="ui-group">
+    <h3>Armes</h3>
+    <div class="button-group js-radio-button-group" id="last" data-filter-group="Armes">
+        <button class="button is-checked" data-filter="">Tous</button>
+        <button class="button" data-filter=".Epée">Epée longue</button>
+        <button class="button" data-filter=".Hache">Hache</button>
+        <button class="button" data-filter=".Lutte">Lutte</button>
+        <button class="button" data-filter=".Rapière">Rapière</button>
+        <button class="button" data-filter=".Sabre">Sabre</button>
+        <button class="button" data-filter=".Canne">Canne</button>
+        <button class="button" data-filter=".Baïonnette">Baïonnette</button>
+        <button class="button" data-filter=".Bâton">Bâton</button>
+    </div>
+  </div>
+
+
+</div>   
+  
+<!-- les objets à filtrer --> 
+    
+    <div class="flip">
+        <div id="cartes">
+   
+         
+        </div>
+    </div>
+</div>    
+    
+</body>
