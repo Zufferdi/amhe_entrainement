@@ -34,7 +34,13 @@ $(document).ready(function() {
                 "</div>"
           
 
-                }).appendTo('#cartes');
+                }).appendTo('#cartes')
+                  .click(function(){
+                        $(this).addClass('flipped');
+                    })
+                  .mouseleave(function(){
+                            $(this).removeClass('flipped');
+                    });
                           
                 
             });  
@@ -80,16 +86,6 @@ $(document).ready(function() {
           }
           return value;
         }
-    
-    /* tourner les cartes */    
-               
-        $('.flip').click(function(){
-            $(this).find('.carte').addClass('flipped').mouseleave(function(){
-                $(this).removeClass('flipped');
-                });
-            return true;
-            });
-    
 
     });            
 });  

@@ -80,6 +80,7 @@ p {
     background: black;
     color: white;
     cursor: pointer;
+    height: 300px;
 }
 .flip .carte .verso {
   -webkit-transform: rotatey(-180deg);
@@ -89,6 +90,9 @@ p {
     background: white;
     color: black;
     cursor: pointer;
+    height: 300px;
+    width: 100%;
+    padding: 5px;
 }
 
 
